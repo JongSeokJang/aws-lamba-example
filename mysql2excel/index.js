@@ -179,8 +179,8 @@ exports.handler = function(event, context, callback){
             );
 
             var params = {
-                'Bucket':'biopama',
-                'Key': 'order_list/user_list.xlsx', // 저장될 이름 명
+                'Bucket':'XXXX',
+                'Key': 'XXXX', // 저장될 이름 명
                 'ACL':'public-read',  //  권한
                 'Body' : report,
                 'ContentEncoding' : 'ANSI',
